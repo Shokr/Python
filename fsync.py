@@ -81,8 +81,8 @@ def sync(sourcepath,targetpath,force=False):
 # def synchronize_directory(target)
 	
 if __name__ == "__main__":
-	source = r"M:\Film\_LIBRARY\Characters\joe14ans\Textures\Fur\Joe14ans_Fur_Density_v001.tif"
-	target = r"C:\WTD_MDC\_Library\Characters\joe14ans\Textures\Joe14ans_Fur_Density_v001.tif"
+	source = r"c:\target.py"
+	target = r"m:\target.py"
 	syncfile = create_SyncFile(source,target)
 	print is_sync_outdated(syncfile.source,syncfile.target)
 
