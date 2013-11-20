@@ -1,3 +1,0 @@
-'''
-  Modo Parsing system
-'''
